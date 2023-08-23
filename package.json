@@ -5,19 +5,21 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js --mode production",
+    "dev": "nodemon src/app.js --mode development"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/victormquevedo/Backend-CH-VQ"
+    "url": "git+https://github.com/victormquevedo/Backend-Desafio13-VQ"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/victormquevedo/Backend-CH-VQ"
+    "url": "https://github.com/victormquevedo/Backend-Desafio13-VQ"
   },
-  "homepage": "https://github.com/victormquevedo/Backend-CH-VQ",
+  "homepage": "https://github.com/victormquevedo/Backend-Desafio13-VQ",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "commander": "^11.0.0",
